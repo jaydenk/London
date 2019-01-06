@@ -3,6 +3,12 @@
 {{#post}}
 <article class="post-content {{post_class}} {{#unless feature_image}}no-image{{/unless}}">
 
+    {{#if feature_image}}
+    <div class="post-content-image">
+        <img class="kg-image" src="{{feature_image}}" alt="{{title}}" />
+    </div>
+    {{/if}}
+
     <div class="post-content-body">
         {{content}}
     </div>
