@@ -10,6 +10,7 @@ production stylesheet in assets/built/screen.css using gulp dev
 @import "@tryghost/shared-theme-assets/assets/css/v1/screen.css";
 @import "fonts.css";
 @import "vars.css";
+@import "home.css";
 
 /* Main - Theme styles
 /* ---------------------------------------------------------- */

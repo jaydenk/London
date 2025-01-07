@@ -1,0 +1,22 @@
+{{!< default}}
+
+<main id="main">
+    <section class="p-outer">
+        <div class="p-inner p-hero">
+            <div class="p-hero-right">
+            <div>
+                <h2>Hi! I'm Jayden</h2>
+                <br>
+                <p>I'm an IT professional based in Adelaide, Australia.</p>
+                <p>I'm a tragically curious person, and spend more time than I should online learning new things. 
+                    The links above will take you to my blog, where I write about them, or my photography.</p>
+                <p>Thanks for dropping by.</p>
+            </div>
+            </div>
+            <div class="p-hero-left">
+            {{! Loads the your cover image as defined in Ghost admin }}
+            <img src="{{img_url @site.cover_image size="l"}}" alt="A photo of me" />
+            </div>
+        </div>
+    </section>
+</main>
